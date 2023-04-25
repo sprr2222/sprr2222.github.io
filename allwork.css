@@ -1,0 +1,104 @@
+/* 设置导航栏的样式 */
+#headline {
+    position: fixed;
+    width: 85%;
+    height: 7px;
+    background: rgb(27, 129, 44);
+    margin-left: 7.5%;
+    top: 120px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* padding: 30px; */
+  }
+  
+  /* 设置导航栏中的链接样式 */
+  #navbar a {
+    color: #393939;
+    text-decoration: none;
+    /* padding: 10px; */
+    font-size: 26px;
+  }
+
+  /* 设置左右链接的距离 */
+  #navbar .left-link {
+    margin-left: 10%;
+  }
+
+  #navbar .right-link {
+    margin-right: 10%;
+  }
+
+  /* 调整子元素位置 */
+  #navbar div {
+    margin-bottom: 20px; /* 控制子元素位置 */
+  }
+  
+  /* 设置标题的样式 */
+  #works_discription {
+    margin-top: 250px;
+    text-align: center;
+    font-size: 42px;
+    color: rgb(27, 129, 44);
+    font-weight: 200;
+    font-family:'Times New Roman';
+    font-style: italic;
+  }
+
+  /* 设置卡片容器的样式 */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+  }
+
+  /* 设置每个卡片的样式 */
+  .card {
+    width: 700px;
+    margin: 30px;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); */
+  }
+  .card:hover .card-text .card-title{
+    color: rgb(27, 129, 44);
+  }
+  /* 设置卡片中的图片的样式 */
+  .card img {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+
+  /* 设置卡片中的文字的样式 */
+  .card-text {
+    padding: 10px;
+    background-color: #ffffff;
+  }
+
+  .card-title {
+    /* font-weight: bold; */
+    font-size: 28px;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .card-description {
+    /* margin: 0; */
+    font-size: 22px;
+    text-align: center;
+    color: #a3a3a3;
+    text-decoration: underline;
+    text-decoration-color: #c8c8c8;
+    text-underline-offset: 9px;
+
+  }
